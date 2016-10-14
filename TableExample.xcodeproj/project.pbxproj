@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D885CE0D1DB07230006D887F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885CE0C1DB07230006D887F /* AppDelegate.swift */; };
-		D885CE0F1DB07230006D887F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885CE0E1DB07230006D887F /* ViewController.swift */; };
 		D885CE121DB07230006D887F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D885CE101DB07230006D887F /* Main.storyboard */; };
 		D885CE141DB07230006D887F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D885CE131DB07230006D887F /* Assets.xcassets */; };
 		D885CE171DB07230006D887F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D885CE151DB07230006D887F /* LaunchScreen.storyboard */; };
 		D885CE221DB07230006D887F /* TableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885CE211DB07230006D887F /* TableExampleTests.swift */; };
 		D885CE2D1DB07230006D887F /* TableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885CE2C1DB07230006D887F /* TableExampleUITests.swift */; };
+		D885CE3F1DB076CA006D887F /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885CE3E1DB076CA006D887F /* FruitsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		D885CE091DB07230006D887F /* TableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D885CE0C1DB07230006D887F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D885CE0E1DB07230006D887F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D885CE111DB07230006D887F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D885CE131DB07230006D887F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D885CE161DB07230006D887F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		D885CE281DB07230006D887F /* TableExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D885CE2C1DB07230006D887F /* TableExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleUITests.swift; sourceTree = "<group>"; };
 		D885CE2E1DB07230006D887F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D885CE3E1DB076CA006D887F /* FruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		D885CE001DB07230006D887F = {
 			isa = PBXGroup;
 			children = (
+				D885CE3E1DB076CA006D887F /* FruitsTableViewController.swift */,
 				D885CE0B1DB07230006D887F /* TableExample */,
 				D885CE201DB07230006D887F /* TableExampleTests */,
 				D885CE2B1DB07230006D887F /* TableExampleUITests */,
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				D885CE0C1DB07230006D887F /* AppDelegate.swift */,
-				D885CE0E1DB07230006D887F /* ViewController.swift */,
 				D885CE101DB07230006D887F /* Main.storyboard */,
 				D885CE131DB07230006D887F /* Assets.xcassets */,
 				D885CE151DB07230006D887F /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D885CE0F1DB07230006D887F /* ViewController.swift in Sources */,
+				D885CE3F1DB076CA006D887F /* FruitsTableViewController.swift in Sources */,
 				D885CE0D1DB07230006D887F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
